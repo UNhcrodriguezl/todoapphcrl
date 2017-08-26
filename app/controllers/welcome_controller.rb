@@ -1,10 +1,10 @@
 class WelcomeController < ApplicationController
 
     def index
-        puts "Hola Mundo en consola"
+        puts "Hola Mundo en terminal"
         
         @imprimir=true
-        @nombre='laura'    #sin @ es local, con un @ la puede ver la vista, con @@ es global, la ven todos
+        @nombre='Camilo'    #sin @ es local, con un @ la puede ver la vista, con @@ es global, la ven todos
     end
     
 end
